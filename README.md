@@ -1,10 +1,12 @@
 ANALYZING COVID-19 DATA
 Team Members:
-1. Habibou Dan Aouta
-2. Matthew O'Neill
-3. Sindhura Chagantiÿÿ
+	1. Habibou Dan Aouta
+	2. Matthew O'Neill
+	3. Sindhura Chagantiÿÿ
+
 Project Description:
 As we saw on the news, the first outbreak of covid-19 started last year in early December 2019 and has had devastating effects all over the world, infecting at least 55 million people and killing at least 1.3 million. Over the last few months a copious amount of symptoms, signs and methods have been discovered to have some effectiveness on this historic disease.ÿ However, despite these grim statistics, the effect of the disease has been very disproportionate in different nations.ÿ Nations such as New Zealand, Singapore, and South Korea have more or less gotten the pandemic under control, while Europe, the US, and Brazil seem incapable of meaningful pandemic response.ÿ In this project, we plan on analyzing a dataset of national data to see if we can find any predictors that help us inform the Covid transmission and death rates.ÿ We will look at things such as population structure (age), diabetes prevalence, cardiovascular disease rates, population density, and other factors in our analysis.
+
 CRISP-DM Process:
 ú ÿ ÿ ÿ ÿ Research phase
 ú ÿ ÿ ÿ ÿ Data understanding and EDA phase
