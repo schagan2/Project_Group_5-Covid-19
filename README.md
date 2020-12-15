@@ -21,7 +21,12 @@ Exploratory data analysis phase is performed on the above data to:
 ● find missing values and replace them with appropriate data
 ● find the relationship between the variables
 The number of covid-cases observed across different parts of the world:
+
+![alt text](https://github.com/schagan2/Project_Group_5-Covid-19/blob/main/Graph1.png?raw=true)
+
 When EDA is performed on the data, the relationship between the variables ‘total_deaths’ and ‘total_smokers’ present in a particular region. And between the ‘total_deaths’ and the ‘cardiovascular_deaths’. And finally with the ‘total_deaths’ and the ‘diabetics’. It is observed that the increase in the ‘total_deaths’ do not change with the cardiovascular_deaths.
+
+![alt text](https://github.com/schagan2/Project_Group_5-Covid-19/blob/main/Graph2.png?raw=true)  
 
 Data Preparation
 In the data preparation phase, a subset of data containing the columns ['iso_code', 'continent', 'location','date', 'total_cases', 'total_deaths', 'cardiovasc_death_rate', 'female_smokers', 'male_smokers', 'diabetes_prevalence'] are taken.
@@ -54,4 +59,3 @@ Conclusion
 Because of the severity of the Covid outbreak, as well as the highly unequal distribution of mortality and morbidity between different nations, it is important to try to understand what factors influence a nation’s susceptibility to a pandemic, as well as the factors that go into protecting nations from the worst parts of a pandemic. In this analysis, we hope to shed some light onto some of those factors.
 Github Link
 https://github.com/schagan2/Project_Group_5-Covid-19
-      
