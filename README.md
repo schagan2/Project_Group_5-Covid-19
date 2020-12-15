@@ -1,27 +1,27 @@
 
 # ANALYZING COVID-19 DATA<br>
 
-###Team Members​:
+## Team Members​:
 1. Habibou Dan Aouta
 2. Matthew O'Neill
 3. Sindhura Chaganti<br/>
-###Project Description:<br/>
+## Project Description:<br/>
 a. As we saw on the news, the first outbreak of covid-19 started last year in early December 2019. Over the last few months a copious amount of symptoms, signs and methods have been discovered to have some effectiveness on this historic disease. Due to this outbreak, millions of people have been at home working remotely or relieved from their daily activities such as jobs and self care activities. Therefore, using Kaggle 2 datasets have been found that represent 2 surveys regarding how people are staying fit and their lifestyle over the last few months.<br/>
 b. Over the last year, the novel covid-19 virus has had devastating effects all over the world, infecting at least 55 million people and killing at least 1.3 million. However, despite these grim statistics, the effect of the disease has been very disproportionate in different nations. Nations such as New Zealand, Singapore, and South Korea have more or less gotten the pandemic under control, while Europe, the US, and Brazil seem incapable of meaningful pandemic response. In this project, we plan on analyzing a dataset of national data to see if we can find any predictors that help us inform the Covid transmission and death rates. We will look at things such as population structure (age), diabetes prevalence, cardiovascular disease rates, population density, and other factors in our analysis.<br/>
-###CRISP-DM Process​:<br/>
+## CRISP-DM Process​:<br/>
 ·​ ​Research phase<br/>
 ·​ ​Data understanding and EDA phase<br/>
 ·​ ​Data preparation phase<br/>
-###Research phase<br/>
+## Research phase<br/>
 a. How Covid-19 impacted people's lifestyle, mental and fitness activities ?<br/>
 b. How do various national measures affect Covid-19 transmission and death rates? For example, how do the age structure, cardiovascular disease rates, diabetes prevalence, etc. affect Covid rates.<br/>
 
-###Data understanding and EDA<br/>
+## Data understanding and EDA<br/>
 The dataset used in the project 'owid-covid-data.csv' has about 50 columns and 59759 rows. It contains information about the region, spread of covid cases, number of deaths, number of smokers, number of cardiovascular deaths, number of diabetics etc.<br/>
 Exploratory data analysis phase is performed on the above data to:<br/>
 ● get a deep understanding of data<br/>
 ● find missing values and replace them with appropriate data<br/>
-● find the relationship between the variables<br/>
+● find the relationship between the variables<br/><br>
 The number of covid-cases observed across different parts of the world:
 
 ![alt text](https://github.com/schagan2/Project_Group_5-Covid-19/blob/main/Graph1.png?raw=true)
@@ -30,7 +30,7 @@ When EDA is performed on the data, the relationship between the variables ‘tot
 
 ![alt text](https://github.com/schagan2/Project_Group_5-Covid-19/blob/main/Graph2.png?raw=true)  
 
-###ata Preparation<br>
+## Data Preparation<br>
 In the data preparation phase, a subset of data containing the columns ['iso_code', 'continent', 'location','date', 'total_cases', 'total_deaths', 'cardiovasc_death_rate', 'female_smokers', 'male_smokers', 'diabetes_prevalence'] are taken.<br/>
 ● The data with ‘continent’, ‘iso_code’ which are having the Nan are removed.<br/>
 ● Replaced the columns ‘total_cases’, ‘total_deaths’, ‘cardiovasc_death_rate’ having nan
@@ -41,9 +41,9 @@ b. Machine Learning (if applicable - supervised, unsupervised):<br/>
 1. In this research, if all exploratory analysis goes well and time permits, we will build various predictive machine learning models that use the national data to predict Covid death and new case rates.<br/>
 c. Evaluation:<br/>
 We will compare our analysis with other analysis that have been conducted in the academic community on the same or similar subjects<br/>
-###Known Issues:<br/>
+## Known Issues:<br/>
 One major issue in this analysis is figuring out how to standardize the data we are working with. It is true that different nations have different testing and hospitalization capacities. The simple fact that nation x has a higher transmission rate than nation y does not necessarily inform you that that is the result of some of the national data predictors that we have access to. It may be that because of testing capacity, that smaller, more urban, and richer nations catch many more of the true Covid cases than poorer, more rural nations. It also may be true that some nations may underreport their Covid rates for political reasons. I am suspicious of Russian and Hungarian Covid rates for this reason. To try to account for this, we plan on looking at excess mortality rates in these nations to determine if the Covid rates are sufficiently in line with their overall death rates.<br/><br>
-###Relevant Domain Information<br/>
+## Relevant Domain Information<br/>
 1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7458584/
 2. https://www.mdpi.com/2227-9067/7/9/138/html
 3. https://doi.org/10.1016/j.jad.2020.09.014
@@ -56,8 +56,8 @@ Data Sources
 1. https://ourworldindata.org/covid-deaths
 2. https://ourworldindata.org/covid-cases
 3. https://ourworldindata.org/coronavirus-testing
-4. https://ourworldindata.org/excess-mortality-covid 5. https://ourworldindata.org/covid-hospitalizations
-Conclusion
+4. https://ourworldindata.org/excess-mortality-covid 5. https://ourworldindata.org/covid-hospitalizations<br>
+## Conclusion<br>
 Because of the severity of the Covid outbreak, as well as the highly unequal distribution of mortality and morbidity between different nations, it is important to try to understand what factors influence a nation’s susceptibility to a pandemic, as well as the factors that go into protecting nations from the worst parts of a pandemic. In this analysis, we hope to shed some light onto some of those factors.
-Github Link
+## Github Link<br>
 https://github.com/schagan2/Project_Group_5-Covid-19
