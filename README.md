@@ -9,6 +9,10 @@
 3. Sindhura Chaganti<br/>
 ## Project Introduction:<br/>
 Over the last year, the novel covid-19 virus has had devastating effects all over the world, infecting at least 55 million people and killing at least 1.3 million. However, despite these grim statistics, the effect of the disease has been very disproportionate in different nations. Nations such as New Zealand, Singapore, and South Korea have more or less gotten the pandemic under control, while Europe, the US, and Brazil seem incapable of meaningful pandemic response. In this project, we plan on analyzing a dataset of national data to see if we can find any predictors that help us inform the Covid transmission and death rates. We will look at things such as population structure (age), diabetes prevalence, cardiovascular disease rates, population density, and other factors in our analysis.  After this simple analysis, we will use Association Learning (a form of machine learning) techniques to see what combinations of factors most predict either high death rates, or low death rates.  We will confine our analysis to European nations of sufficient size (no Vatican City, Monaco, etc.) in order to minimize differences in COvid statistics gathering all over the world.<br/>
+
+Go to the Apriori_Algorithm.ipynb notebook for our full analysis <br/>
+
+
 ## Project Statement <br/>
 What are the various national factors that most predict either high Covid deaths, or low Covid deaths.
 ## Data Source <br/>
