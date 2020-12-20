@@ -72,6 +72,7 @@ In our reading of literature, we saw that there were many predictors of Covid de
 5. https://ourworldindata.org/covid-hospitalizations<br>
 
 ## Future Work<br>
+In future, the apriori algorithm can be performed on different countries to observe which factors are affected with the covid deaths.
 ## Instructions<br>
 ● This project is build on Python 3.7<br/>
 ● Requires Jupyter Notebook to run<br/>
