@@ -10,7 +10,7 @@
 ## Project Introduction:<br/>
 Over the last year, the novel covid-19 virus has had devastating effects all over the world, infecting at least 55 million people and killing at least 1.3 million. However, despite these grim statistics, the effect of the disease has been very disproportionate in different nations. Nations such as New Zealand, Singapore, and South Korea have more or less gotten the pandemic under control, while Europe, the US, and Brazil seem incapable of meaningful pandemic response. In this project, we plan on analyzing a dataset of national data to see if we can find any predictors that help us inform the Covid transmission and death rates. We will look at things such as population structure (age), diabetes prevalence, cardiovascular disease rates, population density, and other factors in our analysis.  After this simple analysis, we will use Association Learning (a form of machine learning) techniques to see what combinations of factors most predict either high death rates, or low death rates.  We will confine our analysis to European nations of sufficient size (no Vatican City, Monaco, etc.) in order to minimize differences in COvid statistics gathering all over the world.<br/>
 ## Project Statement <br/>
-What are the various national factors that most predict either high Covid deaths, or low Covide deaths.
+What are the various national factors that most predict either high Covid deaths, or low Covid deaths.
 ## Data Source <br/>
 Taken from ourworldindata.org.  We used the Covid Deaths Dataset, found under that name.  The most recent day of our analysis was November 14th.
 ## Data understanding and EDA<br/>
@@ -82,5 +82,18 @@ To do a better analysis, it would be helpful to have not national data, but stat
 ## Github Link<br>
 https://github.com/schagan2/Project_Group_5-Covid-19
 
-Questions Answered:
+Questions Answered:<br>
+1. What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?<br/>
+This data was unique in that it contained data for each day for almost every country on the globe.  We only wanted to look at a subset of that data, so we grabbed only the European countries.  We also found many nonsensical valvues, such as negative numbers for Covid deaths on certain days, which had to be converted to positive values.  The outlier countries were mainly the microstates such as Vatican City or San Marino, which were lacking almost all data, and were therefore excluded from our analysis.<br/>
+2. Did you create any new additional features / variables?<br>
+Yes, for association learning, we had to convert all of the continuous variables into binary variables. We did this by a "divide in half" approach, where we divided each category based on the median value, basically seeing if you were in the top half of countries, or the bottom half, for each variable. <br/>
+3. What was the process you used for evaluation?  What was the best result? <br>
+We used lift as our main criteria for evaluation.  We did not find particularly strong relationships except for population_density, with low population density almost always appearing in high Covid associations, and high population density frequently appearing in low Covid death associations.<br/>
+4. What were the problems you faced? How did you solve them?<br>
+One major problem was the size of our analysis. When we ran 12 variables, and thus 24 binary categories, the analysis took so long that we had to limit our scope down to 9 variables just to get to run on our computers.<br/>
+5. What future work would you like to do? <br/>
+See Future Work and Conclusion ablove.<br>
+6. Instructions for individuals that may want to use your work <br/>
+See Instructions section
+
 
