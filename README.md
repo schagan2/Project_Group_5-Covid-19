@@ -82,16 +82,16 @@ To do a better analysis, it would be helpful to have not national data, but stat
 ## Github Link<br>
 https://github.com/schagan2/Project_Group_5-Covid-19
 
-##Questions Answered:<br>
-###1. What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?<br/>
+Questions Answered:<br>
+1. What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? Outlier treatment?  Imputation?<br/>
 This data was unique in that it contained data for each day for almost every country on the globe.  We only wanted to look at a subset of that data, so we grabbed only the European countries.  We also found many nonsensical valvues, such as negative numbers for Covid deaths on certain days, which had to be converted to positive values.  The outlier countries were mainly the microstates such as Vatican City or San Marino, which were lacking almost all data, and were therefore excluded from our analysis.<br/>
-###2. Did you create any new additional features / variables?<br>
+2. Did you create any new additional features / variables?<br>
 Yes, for association learning, we had to convert all of the continuous variables into binary variables. We did this by a "divide in half" approach, where we divided each category based on the median value, basically seeing if you were in the top half of countries, or the bottom half, for each variable. <br/>
-###3. What was the process you used for evaluation?  What was the best result? <br>
+3. What was the process you used for evaluation?  What was the best result? <br>
 We used lift as our main criteria for evaluation.  We did not find particularly strong relationships except for population_density, with low population density almost always appearing in high Covid associations, and high population density frequently appearing in low Covid death associations.<br/>
-###4. What were the problems you faced? How did you solve them?<br>
+4. What were the problems you faced? How did you solve them?<br>
 One major problem was the size of our analysis. When we ran 12 variables, and thus 24 binary categories, the analysis took so long that we had to limit our scope down to 9 variables just to get to run on our computers.<br/>
-###5. What future work would you like to do? <br/>
+5. What future work would you like to do? <br/>
 See Future Work and Conclusion ablove.<br>
-###6. Instructions for individuals that may want to use your work <br/>
+6. Instructions for individuals that may want to use your work <br/>
 See Instructions section
