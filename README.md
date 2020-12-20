@@ -16,7 +16,7 @@ As we saw on the news, the first outbreak of covid-19 started last year in early
 ·​ ​Machine Learning phase<br/>
 ·​ ​Evaluation phase<br/>
 ## Research phase<br/>
-In the research phase, our main agenda is to know how the various factors such as population_density, gdp_capita, cadiovasc_death_rate, smokers etc are affected with the Covid-19 deaths. Which of them are affected very high and which are affected very low. To evaluate this, the continent 'Europe' is choosen as the base continent where the covid deaths are high.<br/>
+In the research phase, our main agenda is to know how the various factors such as population_density, gdp_capita, cadiovasc_death_rate, smoking rates. etc. affect Covid deaths. Which of them are affected very high and which are affected very low. To evaluate this, the continent 'Europe' is choosen as the base continent where the covid deaths are high.<br/>
 Among the continent Europe, all the countries are choosen except the one like Vatican City, Andorra, Gibraltar, San Marino, Luxembourg, Liechtenstein, Malta, Monaco, and Kosovo, Cyprus, Iceland, Montenegro, Macedonia which has less covid death rates.<br/>
 
 ## Data understanding and EDA<br/>
